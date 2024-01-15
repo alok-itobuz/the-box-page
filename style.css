@@ -282,7 +282,6 @@ nav .logo-container img {
 }
 
 .reason-box h2 {
-  /* font-size: clamp(1rem, 5.5vw, rem); */
   font-size: 4vw;
   font-weight: 700;
   color: var(--reason-box-heading-color);
@@ -299,13 +298,10 @@ nav .logo-container img {
 /* About Section Start */
 #about {
   position: relative;
-  /* --- */
   height: fit-content;
   max-height: 100vh;
   display: flex;
   align-items: center;
-  /* --- */
-  /* margin-bottom: 75%; */
 }
 
 .about-container {
@@ -328,9 +324,6 @@ nav .logo-container img {
   color: #fff;
   background: #2947a977;
   overflow: hidden;
-
-  /* background: var(--about-box-bg-color);
-  bottom: -105%; */
 }
 
 .about-box h2 {
@@ -986,7 +979,6 @@ button {
 
   .home-card-head {
     font-size: 4rem;
-    /* align-items: flex-end; */
   }
 
   .home-card-description {
@@ -1245,9 +1237,6 @@ button {
     height: 25%;
   }
 
-  .project-box {
-    /* border: 1px solid red; */
-  }
 
   /* Project Section End */
 
